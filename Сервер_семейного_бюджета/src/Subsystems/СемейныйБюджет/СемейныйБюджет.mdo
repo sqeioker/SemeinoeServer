@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1caf2a0-2f41-40b8-b650-e905dc6a404d">
+  <name>СемейныйБюджет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Семейный бюджет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.DebitCredit</picture>
+  </picture>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Catalog.СемейныйЧат</content>
+  <content>Report.АнализЗатрат</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ТипыНоменклатуры</content>
+  <content>Catalog.Контрагенты</content>
+</mdclass:Subsystem>

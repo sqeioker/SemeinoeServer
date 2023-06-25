@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef3fe1b8-b626-41b0-bc29-8f65706a906b" thisNode="05d49676-9d7c-4a8c-b8f0-2e89e26abdfb">
+  <producedTypes>
+    <objectType typeId="38473f03-f688-4e07-b4f4-c248cbe59b05" valueTypeId="1a5732ec-98c1-4878-9ed3-bf86c951b0a2"/>
+    <refType typeId="e45a1f69-73c9-458e-912f-4a5d0cb56f8b" valueTypeId="c3323c2b-cebc-4115-80d6-47ee12028550"/>
+    <selectionType typeId="04b587a3-7779-4338-9b42-7ba4d885b5d6" valueTypeId="b9e1b3cd-2138-40ff-a335-e56449e62991"/>
+    <listType typeId="02e34377-abcd-4774-a1da-8537d7f31e58" valueTypeId="88ce5ce8-1d2f-40c3-a61b-dc8a14ca83ac"/>
+    <managerType typeId="d357808c-48b8-4ffa-a608-90c70b61dffd" valueTypeId="50ce169d-a367-4021-8ecd-f7ffb1dd4ce8"/>
+  </producedTypes>
+  <name>Мобильный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильный</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.Мобильный.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.Мобильный.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.Номенклатура</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.РеализацияТоваровУслуг</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.ТипыНоменклатуры</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Контрагенты</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Пользователи</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.СемейныйЧат</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9d87dd23-9193-42e9-ba14-c59a0b939067">
+    <name>ДатаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обмена</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ExchangePlan>

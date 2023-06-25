@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7eb7ad54-7922-42bd-8fb7-568ef46785fc">
+  <name>ОбмеДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обме данными</value>
+  </synonym>
+  <namespace>DataTransfer</namespace>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/core</value>
+  </xdtoPackages>
+  <descriptorFileName>ОбмеДанными.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="b0f498f0-5ca1-4c2d-801b-f32cf10c305e">
+    <name>Синхронизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизация</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>Синхронизация</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="154ec43b-7772-41a4-9110-ccda4dcec179">
+      <name>Данные</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данные</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+      </xdtoValueType>
+      <transferDirection>InOut</transferDirection>
+    </parameters>
+  </operations>
+</mdclass:WebService>

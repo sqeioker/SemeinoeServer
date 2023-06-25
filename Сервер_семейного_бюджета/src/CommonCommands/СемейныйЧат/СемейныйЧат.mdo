@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e1df3af-3535-4cc4-8b65-12f11a802ba8">
+  <name>СемейныйЧат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Семейный чат</value>
+  </synonym>
+  <group>NavigationPanelImportant</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>
