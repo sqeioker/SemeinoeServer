@@ -58,6 +58,7 @@
   <catalogs>Catalog.ТипыНоменклатуры</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.СемейныйЧат</catalogs>
+  <catalogs>Catalog.Планирование</catalogs>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <reports>Report.АнализЗатрат</reports>
   <accumulationRegisters>AccumulationRegister.Покупки</accumulationRegisters>

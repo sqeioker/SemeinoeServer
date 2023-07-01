@@ -24,27 +24,24 @@
   <descriptionLength>25</descriptionLength>
   <content>
     <mdObject>Catalog.Номенклатура</mdObject>
-    <autoRecord>Allow</autoRecord>
   </content>
   <content>
     <mdObject>Document.РеализацияТоваровУслуг</mdObject>
-    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Планирование</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ТипыНоменклатуры</mdObject>
-    <autoRecord>Allow</autoRecord>
   </content>
   <content>
     <mdObject>Catalog.Контрагенты</mdObject>
-    <autoRecord>Allow</autoRecord>
   </content>
   <content>
     <mdObject>Catalog.Пользователи</mdObject>
-    <autoRecord>Allow</autoRecord>
   </content>
   <content>
     <mdObject>Catalog.СемейныйЧат</mdObject>
-    <autoRecord>Allow</autoRecord>
   </content>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
